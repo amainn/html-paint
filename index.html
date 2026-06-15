@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Тест</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
+  </head>
+  <body>  
+    <h1>HTML-PAINT</h1>
+
+    <div id="main">
+
+      <canvas height='1000' width='1000' id='test'></canvas>
+
+      <div id="controls">
+        <input id='colorStr' type="color" />
+        <label>Выбрать цвет</label>
+        <input id='widthStr' type="range" min="1" max="20"/>
+        <label>Выбрать размер линии</label>
+        <button id='clearAll'>Стереть холст</button>
+        <button id='undo'>Отменить</button>
+        <button id='redo'>Вернуть</button>
+      </div>
+    </div>
+    
+
+    <script src="mouse.js"></script>
+  </body>
+</html>
